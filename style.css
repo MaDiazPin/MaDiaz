@@ -1,0 +1,89 @@
+body{
+    background: hsl(197, 82%, 66%);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #fffaff;
+    font-size: 60px;
+    font-weight: 599;
+}
+
+p{
+    font: 22px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#wallpaper{
+    width: 50%;
+    border-radius: 50px;
+}
+
+
+
+form{
+    background:radial-gradient(#eef7ff,rgb(6, 197, 255));
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 40px 70px;
+    color: #fffaff;
+    border: 2px solid #fffaff;
+    border-radius: 20px;
+    text-align: left;
+}
+
+form label{
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+form input,
+form textarea,
+form select{
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 86%;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+form button{
+    background:black;
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 22px;
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+form :hover{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+section{
+    width: 100%;
+    min-height: 500px;
+    padding: 60px 0;
+    text-align: center;
+    background: url(https://www.mundocuentas.com/wp-content/uploads/2020/11/twitter-logo-mundocuentas.png);
+    background-size: cover;
+}
+section button{
+    padding: 12px 30px;
+    margin-top: 0.20cm;
+    background: rgb(1, 145, 155);;
+    color: black;
+    font-size: 25px;
+}
+section button:hover{
+    background: transparent;
+    border: 2px solid #60abec;
+    color: #000000;
+}
